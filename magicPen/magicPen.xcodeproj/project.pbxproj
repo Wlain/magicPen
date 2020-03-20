@@ -13,6 +13,7 @@
 		3DFA75892424BF760042F80B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFA75882424BF760042F80B /* Assets.xcassets */; };
 		3DFA758C2424BF760042F80B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFA758A2424BF760042F80B /* LaunchScreen.storyboard */; };
 		3DFA758F2424BF760042F80B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA758E2424BF760042F80B /* main.m */; };
+		3DFA75972424C0C30042F80B /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DFA75962424C0C30042F80B /* GLKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3DFA758B2424BF760042F80B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DFA758D2424BF760042F80B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DFA758E2424BF760042F80B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DFA75962424C0C30042F80B /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DFA75972424C0C30042F80B /* GLKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 			children = (
 				3DFA757E2424BF750042F80B /* magicPen */,
 				3DFA757D2424BF750042F80B /* Products */,
+				3DFA75952424C0C30042F80B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +73,14 @@
 				3DFA758E2424BF760042F80B /* main.m */,
 			);
 			path = magicPen;
+			sourceTree = "<group>";
+		};
+		3DFA75952424C0C30042F80B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DFA75962424C0C30042F80B /* GLKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
